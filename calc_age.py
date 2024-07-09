@@ -1,17 +1,19 @@
 # Program that calculates the year you turn 100 years old
 
+
 def calculate_year_of_100th_birthday(name, age):
     current_year = 2024
     years_until_100 = 100 - age
     year_of_100th_birthday = current_year + years_until_100
     return year_of_100th_birthday
 
+
 def main():
     print("Hello! Let's find out the year you'll turn 100 years old.")
-    
+
     # Get user's name
     name = input("Please enter your name: ")
-    
+
     # Get user's age and ensure it is a valid number
     while True:
         try:
