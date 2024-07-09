@@ -1,17 +1,18 @@
 import unittest
 from calc_age import calculate_year_of_100th_birthday
 
+
 class TestAgeCalculator(unittest.TestCase):
     def test_calculate_year_of_100th_birthday(self):
         # User == 0 years old
         self.assertEqual(calculate_year_of_100th_birthday("Alice", 0), 2124)
-        
+
         # User == 50 years old
         self.assertEqual(calculate_year_of_100th_birthday("Bob", 50), 2074)
-        
+
         # User == 99 years old
         self.assertEqual(calculate_year_of_100th_birthday("Charlie", 99), 2025)
-        
+
         # User == 100 years old
         self.assertEqual(calculate_year_of_100th_birthday("Dave", 100), 2024)
         
