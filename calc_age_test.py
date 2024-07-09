@@ -19,7 +19,7 @@ class TestAgeCalculator(unittest.TestCase):
         self.assertEqual(calculate_year_of_100th_birthday("Dave", 100), 2024)
         
         # User > 100 years old
-        self.assertEqual(calculate_year_of_100th_birthday("Eve", 105), 2019)
+        self.assertEqual(calculate_year_of_100th_birthday("Spencer", 105), 2019)
 
 if __name__ == "__main__":
     unittest.main()
