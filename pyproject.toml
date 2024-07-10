@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Dummy"
+name = "CI-CD_dummy"
 authors = [
     {name = "Wangmo Tenzing", email = "wtenzing6@gmail.com"},
 ]
