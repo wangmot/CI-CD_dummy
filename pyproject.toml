@@ -4,12 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CI-CD_dummy"
-authors = [
-    {name = "Wangmo Tenzing", email = "wtenzing6@gmail.com"},
-]
-maintainers = [
-    {name = "Wangmo Tenzing", email = "wtenzing6@gmail.com"},
-]
 description = "Dummy CI/CD Pipeline"
 requires-python = ">=3.8"
 version = "0.1.0"
