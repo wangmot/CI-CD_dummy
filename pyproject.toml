@@ -7,7 +7,4 @@ name = "CI-CD_dummy"
 description = "Dummy CI/CD Pipeline"
 requires-python = ">=3.8"
 version = "0.1.0"
-
-# New fields
-readme = "README.md"  # Update to "README.rst" if using reStructuredText
-readme_content_type = "text/markdown"  # Update to "text/x-rst" if using reStructuredText
+readme = { file = "README.md", content-type = "text/markdown" }
